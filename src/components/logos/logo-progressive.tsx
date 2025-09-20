@@ -9,9 +9,9 @@ import {
   IconPrettier,
   IconRadix,
   IconReact,
-  IconTurbopack,
   IconTypeScript,
   LogoTailwind,
+  LogoTurbopack,
 } from './logos'
 
 export function LogoProgressive() {
@@ -34,9 +34,8 @@ export function LogoProgressive() {
               TypeScript
             </div>
 
-            <div className="flex gap-2 font-semibold">
-              <IconTurbopack />
-              Turbopack
+            <div className="flex font-semibold">
+              <LogoTurbopack />
             </div>
 
             <div className="flex gap-2 font-semibold">

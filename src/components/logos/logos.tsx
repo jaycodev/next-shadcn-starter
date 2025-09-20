@@ -35,8 +35,8 @@ export function IconTypeScript() {
   return <ThemedIcon name="typescript" alt="TypeScript Icon" themed={false} />
 }
 
-export function IconTurbopack() {
-  return <ThemedIcon name="turbopack" alt="Turbopack Icon" />
+export function LogoTurbopack() {
+  return <ThemedIcon name="turbopack" alt="Turbopack Logo" />
 }
 
 export function IconMotion() {

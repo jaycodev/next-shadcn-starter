@@ -1,7 +1,7 @@
 import { FileText } from 'lucide-react'
 import Image from 'next/image'
 
-import { LogoProgressive } from '@/components/logos/logo-cloud'
+import { LogoProgressive } from '@/components/logos/logo-progressive'
 import { Button } from '@/components/ui/button'
 import { ModeToggle } from '@/components/ui/mode-toggle'
 
