@@ -13,46 +13,22 @@ export default function Home() {
 
       <div className="flex flex-nowrap items-center justify-center gap-4 sm:gap-8">
         <Image
-          className="h-6 sm:h-8 dark:invert"
+          className="h-6 sm:h-8 w-auto dark:invert"
           src="/next.svg"
           alt="Next.js logo"
           width={180}
-          height={38}
+          height={31}
           priority
         />
         <h6 className="text-3xl font-bold">+</h6>
-        <div className="flex items-center gap-2">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 256 256"
-            className="w-8 h-8 sm:w-10 sm:h-10"
-          >
-            <rect width="256" height="256" fill="none"></rect>
-            <line
-              x1="208"
-              y1="128"
-              x2="128"
-              y2="208"
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="32"
-            />
-            <line
-              x1="192"
-              y1="40"
-              x2="40"
-              y2="192"
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="32"
-            />
-          </svg>
-          <span className="font-bold text-2xl sm:text-3xl">shadcn/ui</span>
-        </div>
+        <Image
+          className="h-6 sm:h-8 w-auto dark:invert"
+          src="/shadcn.svg"
+          alt="Shadcn UI logo"
+          width={180}
+          height={31}
+          priority
+        />
       </div>
 
       <ol className="list-inside list-decimal text-center sm:text-left font-mono text-sm sm:text-base max-w-xl mx-auto space-y-2">
