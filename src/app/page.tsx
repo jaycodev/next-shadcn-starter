@@ -1,20 +1,23 @@
 import { FileText } from 'lucide-react'
 import Image from 'next/image'
 
+import { LogoProgressive } from '@/components/logos/logo-cloud'
 import { Button } from '@/components/ui/button'
 import { ModeToggle } from '@/components/ui/mode-toggle'
 
 export default function Home() {
   return (
-    <main className="relative flex min-h-screen flex-col items-center justify-center px-6 py-20 gap-12 sm:px-20">
+    <main className="relative flex min-h-screen flex-col items-center justify-center px-6 py-20 gap-12 sm:px-20 overflow-x-hidden">
       <div className="fixed bottom-4 right-4 sm:bottom-8 sm:right-8">
         <ModeToggle />
       </div>
 
+      <div className="h-10"></div>
+
       <div className="flex flex-nowrap items-center justify-center gap-8 sm:gap-12">
         <Image
-          className="h-16 w-16 sm:h-20 sm:w-20 dark:invert"
-          src="/nextjs_icon_dark.svg"
+          className="h-16 w-16 sm:h-20 sm:w-20"
+          src="/logos/next.svg"
           alt="Next.js icon"
           width={80}
           height={80}
@@ -25,7 +28,7 @@ export default function Home() {
 
         <Image
           className="h-16 w-16 sm:h-20 sm:w-20 dark:invert"
-          src="/shadcn-ui_dark.svg"
+          src="/logos/shadcn.svg"
           alt="Shadcn UI icon"
           width={80}
           height={80}
@@ -44,8 +47,8 @@ export default function Home() {
         <li>Save and see your changes instantly.</li>
       </ol>
 
-      <div className="flex flex-wrap gap-4 justify-center">
-        <Button variant="outline" asChild>
+      <div className="flex flex-wrap gap-4 justify-center mb-10">
+        <Button asChild>
           <a
             href="https://github.com/jaycodev/next-shadcn-starter"
             target="_blank"
@@ -63,7 +66,7 @@ export default function Home() {
           </a>
         </Button>
 
-        <Button variant="default" asChild>
+        <Button variant="outline" asChild>
           <a
             href="https://github.com/jaycodev/next-shadcn-starter#readme"
             target="_blank"
@@ -75,6 +78,8 @@ export default function Home() {
           </a>
         </Button>
       </div>
+
+      <LogoProgressive />
     </main>
   )
 }
