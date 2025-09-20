@@ -11,22 +11,24 @@ export default function Home() {
         <ModeToggle />
       </div>
 
-      <div className="flex flex-nowrap items-center justify-center gap-4 sm:gap-8">
+      <div className="flex flex-nowrap items-center justify-center gap-8 sm:gap-12">
         <Image
-          className="h-6 sm:h-8 w-auto dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={31}
+          className="h-16 w-16 sm:h-20 sm:w-20 dark:invert"
+          src="/nextjs_icon_dark.svg"
+          alt="Next.js icon"
+          width={80}
+          height={80}
           priority
         />
+
         <h6 className="text-3xl font-bold">+</h6>
+
         <Image
-          className="h-6 sm:h-8 w-auto dark:invert"
-          src="/shadcn.svg"
-          alt="Shadcn UI logo"
-          width={180}
-          height={31}
+          className="h-16 w-16 sm:h-20 sm:w-20 dark:invert"
+          src="/shadcn-ui_dark.svg"
+          alt="Shadcn UI icon"
+          width={80}
+          height={80}
           priority
         />
       </div>
