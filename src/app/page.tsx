@@ -128,7 +128,7 @@ export default function Home() {
       <section className="mx-auto max-w-5xl px-6">
         <div className="mx-auto flex max-w-4xl flex-wrap items-center justify-center gap-x-12 gap-y-8 sm:gap-x-16 sm:gap-y-12">
           <svg
-            className="h-5 w-fit text-black dark:text-white"
+            className="h-5 w-auto text-black dark:text-white"
             viewBox="0 0 486 72"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -225,7 +225,7 @@ export default function Home() {
           </svg>
 
           <svg
-            className="h-5 w-fit text-[#0f172a] dark:text-white"
+            className="h-5 w-auto text-[#0f172a] dark:text-white"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 262 33"
@@ -246,7 +246,7 @@ export default function Home() {
 
           <div className="flex items-center gap-2">
             <svg
-              className="h-5 w-fit"
+              className="h-5 w-auto"
               viewBox="0 0 256 256"
               xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="xMidYMid"
@@ -264,7 +264,7 @@ export default function Home() {
           </div>
 
           <svg
-            className="h-5 w-fit text-black dark:text-white"
+            className="h-5 w-auto text-black dark:text-white"
             viewBox="0 0 76 24"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
@@ -282,7 +282,7 @@ export default function Home() {
 
           <div className="flex items-center gap-2">
             <svg
-              className="h-5 w-fit text-[#4e4e4e] dark:text-white"
+              className="h-5 w-auto text-[#4e4e4e] dark:text-white"
               viewBox="76.58987244897958 44 164.00775510204068 164"
               xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="xMidYMid meet"
@@ -392,7 +392,7 @@ export default function Home() {
           </div>
 
           <svg
-            className="h-5 w-fit text-[#101828] dark:text-white"
+            className="h-5 w-auto text-[#101828] dark:text-white"
             viewBox="0 0 203 58"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -413,7 +413,7 @@ export default function Home() {
 
           <div className="flex items-center gap-2">
             <svg
-              className="h-5 w-fit text-[#CFD4D7] dark:text-[#4D616E]"
+              className="h-5 w-auto text-[#CFD4D7] dark:text-[#4D616E]"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 210 210"
             >
@@ -486,7 +486,7 @@ export default function Home() {
 
           <div className="flex items-center gap-2">
             <svg
-              className="h-5 w-fit"
+              className="h-5 w-auto"
               viewBox="0 0 256 248"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
