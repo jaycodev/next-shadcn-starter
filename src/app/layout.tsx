@@ -49,7 +49,7 @@ export default function RootLayout({
 
         <meta name="theme-color" content="oklch(0.141 0.005 285.823)" />
       </head>
-      <body className={`${inter.variable} antialiased`}>
+      <body className={`${inter.className} antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
