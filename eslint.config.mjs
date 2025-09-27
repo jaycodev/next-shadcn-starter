@@ -1,5 +1,4 @@
 import { defineConfig } from 'eslint/config'
-import js from '@eslint/js'
 import reactPlugin from 'eslint-plugin-react'
 import reactHooksPlugin from 'eslint-plugin-react-hooks'
 import tseslint from 'typescript-eslint'
@@ -8,8 +7,6 @@ import simpleImportSort from 'eslint-plugin-simple-import-sort'
 import globals from 'globals'
 
 export default defineConfig([
-  js.configs.recommended,
-
   {
     files: ['src/**/*.{js,jsx,ts,tsx}'],
     languageOptions: {
