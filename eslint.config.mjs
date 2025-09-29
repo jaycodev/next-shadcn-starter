@@ -8,7 +8,7 @@ import globals from 'globals'
 
 export default defineConfig([
   {
-    files: ['src/**/*.{js,jsx,ts,tsx}'],
+    files: ['**/*.{js,jsx,ts,tsx}'],
     languageOptions: {
       parser: tseslint.parser,
       parserOptions: {
